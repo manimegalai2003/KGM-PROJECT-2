@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(250, 180, 180);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 700px;
+  width: 200px;
+  background-color: rgb(245, 87, 87);
+  color: white;
+  margin: 0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+a:hover {
+  background-color: brown;
+  border-radius: 10px;
+}
+
+h {
+  font-weight: bold;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  float: right;
+  border-radius: 100px;
+  outline-style: solid;
+  outline-color: red;
+}
+
+.div1 {
+  float: right;
+  margin: 0;
+  margin-right: 50px;
+}
+
+.div3 {
+  background-color: white;
+  margin-left: 400px;
+  margin-top: 30px;
+  height: 100px;
+  width: 500px;
+  padding-left: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.div4 {
+  background-color: white;
+  margin-left: 400px;
+  margin-top: 30px;
+  height: 100px;
+  width: 500px;
+  padding-left: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.div5 {
+  background-color: white;
+  margin-left: 400px;
+  margin-top: 30px;
+  height: 100px;
+  width: 500px;
+  padding-left: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+  }
+  img {
+    float: none;
+    display: block;
+    margin: 20px auto;
+  }
+  .div1 {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .div3,
+  .div4,
+  .div5 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  a {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  .div3,
+  .div4,
+  .div5 {
+    padding: 20px;
+    height: auto;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+/*# sourceMappingURL=profile.css.map */

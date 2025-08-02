@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        
+        h{
+            color: white;
+            font-weight: bold;
+            font-size:xx-large;
+            margin-left: 100px;
+        }
+
+        body{
+
+            background-color: rgb(252, 225, 225);
+        }
+
+        header{
+            width: 100%;
+            background-color: #ea5959; 
+            color:whitesmoke;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            padding: 5px ;
+            position: static;
+            height: 250px;
+           border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 70px;
+            margin: 0;
+            top: 0;
+            left: 0;
+        }
+
+        a{
+            text-decoration: none;
+            color:white;
+            font-size: 20px;
+            padding: 100px;
+        }
+        .btn1{
+            background-color: rgb(159, 15, 15);
+            color: white;
+            border-radius: 20px;
+            border: none;
+            height: 40px;
+            width: 100px;
+            cursor: pointer;
+        }
+       
+        .c1{
+            text-align: center;
+            
+        }
+        .column{
+            display: block;
+            background-color: rgb(255, 197, 197);
+            width: 40%;
+            margin-left: 450px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            border-radius: 5px;
+           
+        }
+
+        input{
+            width: 500px;
+            height: 25px;
+            border-radius: 5px;
+             
+        }
+
+        select{
+            width: 500px;
+            height: 30px;
+            border-radius: 10px;
+            
+        }
+
+        .btn2{
+            background-color: rgb(235, 74, 74);
+            color: white;
+            border-radius: 10px;
+            border: none;
+            height: 40px;
+            width: 150px;
+            cursor: pointer;
+        }
+        .div5{
+            padding: 40px;
+            display: inline-flex;
+        }
+        .div1{
+            margin: 20px;
+        }
+
+       @media screen and (max-width: 900px) {
+  header {
+    height: auto;
+    font-size: 14px;
+    padding: 20px 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+  }
+
+  .column {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  div[style*="margin-left: 420px"] {
+    width: 80% !important;
+    margin: 20px auto !important;
+    padding: 20px !important;
+  }
+
+  input, select {
+    width: 100% !important;
+  }
+
+  .div5 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .div1 {
+    width: 80% !important;
+    margin-bottom: 20px;
+  }
+
+  nav a {
+    padding: 10px;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h, h1, h2, h3 {
+    font-size: 18px;
+  }
+
+  header {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .btn1, .btn2 {
+    width: 100px;
+    font-size: 14px;
+  }
+
+  input, select {
+    width: 100% !important;
+    height: 35px;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  div[style*="margin-left: 420px"] {
+    padding: 10px !important;
+  }
+
+  .div1 {
+    height: auto !important;
+    padding: 15px !important;
+  }
+}
+
+       
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <i class="fa-solid fa-droplet" style="color: black;"></i> Blood Donation
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="admin.html">Admin Dashboard</a>
+            <a href="login.html"><button class="btn1">Logout</button></a>
+        </nav>
+    <br><br>
+  
+        <h1>Donate Blood, Save Lives <i class="fa-solid fa-droplet" style="color: red;"></i></h1>
+        <h3>Join our team and become a blood donor today!</h3>
+</header>
+<br>
+<div class="c1">
+    <h1 style="color: red;">How It Works</h1>
+    <p>Become a hero in just three simple steps.</p>
+    <div class="column">
+<i class="fa-solid fa-1"></i>            
+<h2>Register in Online <i class="fa-solid fa-book" style="color: rgb(216, 216, 25);"></i></h2>
+            <p>Sign up easily our quick registration form.</p>
+    </div>
+    <div class="column">
+        <i class="fa-solid fa-2"></i>
+        <h2>Visit & Donate <i class="fa-solid fa-syringe" style="color: lightskyblue;"></i></h2>
+        <p>Find a nearby center and make your donation safely.</p>
+    </div>
+    <div class="column">
+        <i class="fa-solid fa-3"></i>
+        <h2>Change Lives <i class="fa-solid fa-ribbon" style="color: yellow;"></i></h2>
+        <p>Your donation can help save up to three people.</p>
+    </div>
+</div>
+<div style="margin-left: 420px; padding-left: 40px; background-color: white; border-radius: 10px; padding-bottom: 20px;width: 40%;">
+    <h1 style="color: red; text-align: center;">Become a Blood Donor</h1>
+    <p style="text-align: center;">Your donation has the power to save lives.</p>
+    <br>
+    <form>
+    <label for="name">Full Name</label>
+    <br><br>
+    <input type="text" name="" id="">
+    <br><br>
+    <label for="Blood Group">Blood Group</label>
+    <br><br>
+    <select name="" id="">
+            <option value="">Select</option>
+            <option value="">A+</option>
+            <option value="">A-</option>
+            <option value="">B+</option>
+            <option value="">B-</option>
+            <option value="">O+</option>
+            <option value="">O-</option>
+            <option value="">AB+</option>
+            <option value="">AB-</option>
+            <option value="">A1B+</option>
+            <option value="">A1B-</option>
+        </select>
+    <br><br>
+    <label for="age">Age</label>
+    <br><br>
+    <input type="number">
+    <br><br>
+    <label for="location">location</label>
+    <br><br>
+    <input type="text">
+    <br><br>
+    <label for="number">Contact Number</label>
+    <br><br>
+    <input type="number">
+    <br><br>
+    <label for="month">Any Health Conditions?</label>
+    <br><br>
+    <select name="" id="">
+        <option value="">Select</option>
+        <option value="">Yes</option>
+        <option >No</option>
+    </select>
+    <br><br>
+    <label for="Date">Last Donation Date</label>
+    <br><br>
+    <input type="date">
+    </form>
+    <br><br>
+    <button class="btn2">Register as Donor</button>
+</div>
+<br>
+    <h1 style="color: red; text-align: center;">Donor Testimonials</h1>
+    <p style="text-align: center;">Hear from those who have made a life-saving impact.</p>
+    <div class="div5">
+<div class="div1" style="text-align: center; background-color: rgb(244, 191, 191); border-radius: 10px; width: 400px; height: 120px; padding-top: 20px;">
+    <i class="fa-solid fa-circle-user"></i>
+    <p>"Donating blood was one of the best decisions I ever made. Knowing I saved a life is an incredible feeling!”</p>
+    <p style="color: red;">- Manimegalai</p>
+</div>
+<div class="div1" style="text-align: center; background-color: rgb(244, 191, 191); border-radius: 10px; width: 400px; height: 120px; padding-top: 20px;">
+    <i class="fa-solid fa-circle-user"></i>
+    <p>“The process was smooth, and the staff made me feel so comfortable. I encourage everyone to donate!”</p>
+    <p style="color: red;">- Manikandan</p>
+</div>
+<div class="div1" style="text-align: center; background-color: rgb(244, 191, 191); border-radius: 10px; width: 400px; height: 120px; padding-top: 20px;">
+    <i class="fa-solid fa-circle-user"></i>
+    <p>“I never thought my blood could help a child in need. I will keep donating as long as I can.”</p>
+    <p style="color: red;">- Sivan</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+            font-weight: bold;
+        }
+        span{
+          color: red;
+        }
+        body{
+          background-image: linear-gradient(to left,  rgb(252, 87, 87), pink, rgb(252, 87, 87));
+          text-align: center;
+        }
+        div{
+          background-color: white;
+          width: 250px;
+          height: 350px;
+          margin: 100px;
+          padding: 50px;
+          margin-left: 600px;
+          border-radius: 20px;
+          outline-style: solid;
+          outline-color: red;
+        }
+
+        input{
+        height: 30px;
+          border-radius: 5px;
+        }
+
+        button{
+          height: 30px;
+          width: 120px;
+          background-image: linear-gradient(to right, rgb(241, 118, 118), rgb(239, 51, 51));
+          color: white;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+
+        a{
+          text-decoration: none;
+         
+        }
+
+       @media screen and (max-width: 900px) {
+  body {
+    background-image: linear-gradient(to left, rgb(221, 35, 35), rgb(232, 100, 122), rgb(129, 12, 12));
+    padding: 20px;
+  }
+  
+  div {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(255, 230, 230);
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input, select, button {
+    width: 90%;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Blood Bank Login</h1>
+        <h>Sign in to continue</h>
+        <br><br><br>
+        <label for="">Select Role:</label>
+  <select name="" id="">
+    <option value="">Admin</option>
+    <option value="">Donor</option>       
+  </select>
+  <br><br>
+  <input type="text" placeholder="Username">
+  <br><br>
+  <input type="password" placeholder="password">
+<br><br>
+  <a href="home.html"><button type="submit">Login</button></a>
+<br><br>
+  <a href="register.html"><h>New User? <span>Register here</span></h></a>
+
+    </div>
+</body>
+</html>
